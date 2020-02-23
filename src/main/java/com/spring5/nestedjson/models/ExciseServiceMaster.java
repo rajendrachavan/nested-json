@@ -1,13 +1,14 @@
 package com.spring5.nestedjson.models;
 
-import org.springframework.data.annotation.Id;
+import lombok.*;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
+import javax.persistence.*;
 
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
 @Entity
+@Table(name = "excise_service_master")
 public class ExciseServiceMaster {
 
     @Id
