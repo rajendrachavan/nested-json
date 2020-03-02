@@ -1,6 +1,4 @@
-package com.spring5.nestedjson.services;
+package com.spring5.nestedjson.services.serviceimpls;
 
-public interface IDashboardService {
-
-    public String getJsonDataList(String dashboardRequest) throws Exception;
+public class IDashboardService {
 }
